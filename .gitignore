@@ -1,5 +1,7 @@
 # Dependencies
-node_modules/
+/node_modules
+/.pnp
+.pnp.js
 
 # Environment variables
 .env
@@ -7,6 +9,10 @@ node_modules/
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Build files
+/build
+/dist
 
 # Debug logs
 npm-debug.log*
@@ -32,4 +38,4 @@ temp/
 # Server certificates and keys
 *.pem
 *.key
-*.crt 
+*.crt
